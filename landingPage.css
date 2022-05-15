@@ -6,7 +6,7 @@ body
 .bgImg
 {
        display: block;
-       background-image: url(./photos/bg2.jpg);
+       background-image: url("./photos/bg2.jpg");
        filter: blur(8px);
        background-color: #696965; 
        height: 100vh; 
@@ -39,7 +39,8 @@ body
         width: 200px;
         margin-left: auto;
         margin-right: auto;
-        border: 2px solid black;
+        /* border: 2px solid black; */
+        box-shadow: 0px 0px 6px;
         border-radius: 50%;
         
     }
